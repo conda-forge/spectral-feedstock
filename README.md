@@ -17,14 +17,15 @@ imagery. SPy is Free, Open Source Software (FOSS) distributed under the GNU Gene
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/spectral-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/spectral-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/spectral-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/spectral-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/spectral-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/spectral-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/spectral-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/spectral-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spectral/badges/version.svg)](https://anaconda.org/conda-forge/spectral)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spectral/badges/downloads.svg)](https://anaconda.org/conda-forge/spectral)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-spectral-green.svg)](https://anaconda.org/conda-forge/spectral) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/spectral.svg)](https://anaconda.org/conda-forge/spectral) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/spectral.svg)](https://anaconda.org/conda-forge/spectral) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/spectral.svg)](https://anaconda.org/conda-forge/spectral) |
 
 Installing spectral
 ===================
