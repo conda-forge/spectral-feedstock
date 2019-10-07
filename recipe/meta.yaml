@@ -1,6 +1,6 @@
 {% set name = "spectral" %}
-{% set version = "0.19" %}
-{% set sha256 = "b8d5dc9e2e36d45d1f55bf95528a63d7a95dd049857c98f86d400a3f0c7c86f1" %}
+{% set version = "0.20" %}
+{% set sha256 = "73a489080d7599c4149f810aaf6c2d29377fe65ed81ffa590cb15137f1303a36" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
