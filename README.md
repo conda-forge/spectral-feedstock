@@ -3,7 +3,7 @@ About spectral
 
 Home: https://github.com/spectralpython/spectral/
 
-Package license: GPLv2
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
