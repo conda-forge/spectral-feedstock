@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -31,8 +31,8 @@ test:
 
 about:
   home: https://github.com/spectralpython/spectral/
-  license: GPLv2
-  license_family: GPL
+  license: MIT
+  license_family: MIT
   license_file: LICENSE.txt
   summary: 'A Python module for hyperspectral image processing.'
   description: |
