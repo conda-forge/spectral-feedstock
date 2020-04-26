@@ -1,6 +1,6 @@
 {% set name = "spectral" %}
-{% set version = "0.20" %}
-{% set sha256 = "73a489080d7599c4149f810aaf6c2d29377fe65ed81ffa590cb15137f1303a36" %}
+{% set version = "0.21" %}
+{% set sha256 = "1c9e3b367e4a9a93717fabb08e570828bba40cdbf98eea9ac4a6c06ed9e8317d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'A Python module for hyperspectral image processing.'
+  summary: A Python module for hyperspectral image processing.
   description: |
     A pure Python module for processing hyperspectral image data (imaging spectroscopy data). 
     It has functions for reading, displaying, manipulating, and classifying hyperspectral 
