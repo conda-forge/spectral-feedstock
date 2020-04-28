@@ -11,7 +11,7 @@ Summary: A Python module for hyperspectral image processing.
 
 A pure Python module for processing hyperspectral image data (imaging spectroscopy data).
 It has functions for reading, displaying, manipulating, and classifying hyperspectral
-imagery. SPy is Free, Open Source Software (FOSS) distributed under the GNU General Public License.
+imagery. SPy is Free, Open Source Software (FOSS) distributed under the MIT License..
 
 
 Current build status
