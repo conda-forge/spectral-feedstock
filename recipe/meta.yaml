@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -38,7 +38,7 @@ about:
   description: |
     A pure Python module for processing hyperspectral image data (imaging spectroscopy data). 
     It has functions for reading, displaying, manipulating, and classifying hyperspectral 
-    imagery. SPy is Free, Open Source Software (FOSS) distributed under the GNU General Public License.
+    imagery. SPy is Free, Open Source Software (FOSS) distributed under the MIT License.
   doc_url: http://spectralpython.net
   dev_url: https://github.com/spectralpython/spectral/
 
