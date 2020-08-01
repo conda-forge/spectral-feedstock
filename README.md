@@ -5,7 +5,7 @@ Home: https://github.com/spectralpython/spectral/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python module for hyperspectral image processing.
 
