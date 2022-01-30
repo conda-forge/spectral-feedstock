@@ -1,6 +1,6 @@
 {% set name = "spectral" %}
 {% set version = "0.22.2" %}
-{% set sha256 = "3803aaf132b03dfae95b91f881ac97d895d04bc5f0c73676c1aff681e607d3a1" %}
+{% set sha256 = "9b8a9f5b26e85f9bfba3ccf9a0ee1a706aff2b1c5c192d6195f5503dc30fa694" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - pip
     - python
     - setuptools
