@@ -1,6 +1,5 @@
 {% set name = "spectral" %}
-{% set version = "0.23" %}
-{% set sha256 = "b208ffd1042e32fd2276a35e098e3df26a5f6ff1310b829e97d222c66645a9af" %}
+{% set version = "0.23.1" %}
 
 package:
   name: {{ name|lower }}
