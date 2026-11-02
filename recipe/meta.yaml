@@ -1,6 +1,6 @@
 {% set name = "spectral" %}
-{% set version = "0.25" %}
-{% set sha256 = "8e5779ed1d4e4529abd1fdf14f0ff793c17487928360550997c7c6a684f450ae" %}
+{% set version = "0.26" %}
+{% set sha256 = "e1bb3e64085a3dc96c513fddbd044b60295a2e311c819447564748de6e68948e" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
